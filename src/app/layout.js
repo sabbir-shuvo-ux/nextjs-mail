@@ -6,6 +6,7 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata = {
   title: "Contact Us",
   description: "Contact us with this form",
+  metadataBase: new URL("https://hello-contact-page.netlify.app"),
 };
 
 export default function RootLayout({ children }) {
